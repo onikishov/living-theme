@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="25px" viewBox="0 0 19 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Listing-detail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="LR-Desktop---Listing-detail" transform="translate(-1092.000000, -752.000000)" stroke="#966534">
+            <g id="Share" transform="translate(1092.000000, 753.000000)">
+                <g id="Share-Icon">
+                    <path d="M15.4974,14.1273 C14.1524,14.1273 13.0614,13.0373 13.0614,11.6923 C13.0614,10.3473 14.1524,9.2563 15.4974,9.2563 C16.8424,9.2563 17.9324,10.3473 17.9324,11.6923 C17.9324,13.0373 16.8424,14.1273 15.4974,14.1273 Z" id="Stroke-1"></path>
+                    <path d="M2.9354,5.3708 C1.5904,5.3708 0.5004,4.2808 0.5004,2.9358 C0.5004,1.5908 1.5904,0.4998 2.9354,0.4998 C4.2804,0.4998 5.3714,1.5908 5.3714,2.9358 C5.3714,4.2808 4.2804,5.3708 2.9354,5.3708 Z" id="Stroke-3"></path>
+                    <path d="M2.9354,22.8619 C1.5904,22.8619 0.5004,21.7719 0.5004,20.4269 C0.5004,19.0819 1.5904,17.9909 2.9354,17.9909 C4.2804,17.9909 5.3714,19.0819 5.3714,20.4269 C5.3714,21.7719 4.2804,22.8619 2.9354,22.8619 Z" id="Stroke-5"></path>
+                    <path d="M13.5149,13.1038 L4.9189,19.0138" id="Stroke-7"></path>
+                    <path d="M4.9474,4.307 L13.4914,10.311" id="Stroke-9"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

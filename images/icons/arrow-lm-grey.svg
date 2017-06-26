@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="10px" viewBox="0 0 13 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="buying" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="LR-Desktop---Buying" transform="translate(-136.000000, -1169.000000)" stroke="#4A4A4A">
+            <g id="Featured" transform="translate(135.000000, 429.000000)">
+                <g id="Listing-Thumb" transform="translate(0.000000, 280.000000)">
+                    <g id="Info" transform="translate(0.000000, 270.000000)">
+                        <g id="CTA" transform="translate(1.000000, 183.000000)">
+                            <g id="Arrow" transform="translate(0.000000, 6.521610)">
+                                <polyline id="Stroke-1" points="7.2371 0.5 11.9821 5.245 7.2371 9.99"></polyline>
+                                <path d="M0.5,5.2448 L11.982,5.2448" id="Stroke-3"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

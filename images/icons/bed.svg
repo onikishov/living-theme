@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="20px" viewBox="0 0 25 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="path-1" points="1.005 0.5974 1.005 2.5004 0.5014 2.5004 0.5014 0.5974 1.005 0.5974"></polygon>
+        <polygon id="path-3" points="0 19.9063 24.005 19.9063 24.005 0.0003 0 0.0003"></polygon>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LR-Desktop-Homepage" transform="translate(-960.000000, -4939.000000)">
+            <g id="Featured" transform="translate(136.000000, 3336.000000)">
+                <g id="Btm-Row-Copy" transform="translate(0.000000, 1220.000000)">
+                    <g id="Thumb-3-Copy" transform="translate(824.000000, 0.000000)">
+                        <g id="Info-Copy-2" transform="translate(0.000000, 270.000000)">
+                            <g id="Bed" transform="translate(0.000000, 113.000000)">
+                                <g>
+                                    <g id="Group-3" transform="translate(23.000000, 16.906300)">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <g id="Clip-2"></g>
+                                        <path d="M0.5014,0.5974 L0.5014,2.5004" id="Stroke-1" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                                    </g>
+                                    <path d="M0.5,17.5037 L0.5,19.4067" id="Stroke-4" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <g id="Clip-7"></g>
+                                    <polygon id="Stroke-6" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-4)" points="0.501 17.5003 23.501 17.5003 23.501 12.5003 0.501 12.5003"></polygon>
+                                    <polyline id="Stroke-8" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-4)" points="21.5014 9.3337 21.5014 0.4997 2.5014 0.4997 2.5014 9.3427"></polyline>
+                                    <path d="M13.5014,8.5 L13.5014,5.541 C13.5014,4.938 13.9594,4.493 14.5404,4.651 C15.2834,4.852 16.2984,4.986 17.3834,4.687 C17.9554,4.529 18.5014,4.99 18.5014,5.583 L18.5014,8.5" id="Stroke-9" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-4)"></path>
+                                    <path d="M5.5009,8.5 L5.5009,5.541 C5.5009,4.938 5.9589,4.493 6.5409,4.651 C7.2829,4.852 8.2979,4.986 9.3829,4.687 C9.9549,4.529 10.5009,4.99 10.5009,5.583 L10.5009,8.5" id="Stroke-10" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-4)"></path>
+                                    <path d="M23.505,12.5 L0.513,12.5 L0.513,12.358 C0.513,10.306 2.827,8.5 5.682,8.5 L18.336,8.5 C21.191,8.5 23.505,10.306 23.505,12.358 L23.505,12.5 Z" id="Stroke-11" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-4)"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
