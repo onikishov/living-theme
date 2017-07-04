@@ -20,6 +20,7 @@ $footer_copyright = get_field('footer_copyright', 'option');
 
 	<footer class="footer">
 		<div class="container">
+			<?php if(is_page_template('template-careers.php')): ?><a href="#" class="btn btn-share">Talk To An<br>Agent Now</a><?php endif; ?>
 			<div class="social">
 				<a href="<?php echo $footer_social_link_linkedin ?>" class="linkedin">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/linkedin.svg" alt="linkedin">
@@ -45,6 +46,8 @@ $footer_copyright = get_field('footer_copyright', 'option');
 	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/vendor/lightGallery/js/lightgallery.min.js"></script>
 	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/vendor/lightGallery/lib/lg-autoplay.min.js"></script>
 	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/vendor/lightGallery/lib/lg-video.min.js"></script>
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/vendor/jquery.stellar.min.js"></script>
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/vendor/wow.min.js"></script>
 	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/main.js"></script>
 
 	<?php if(is_page_template('template-buying.php')): ?>

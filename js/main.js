@@ -167,4 +167,10 @@ jQuery(function($) {
 		}
 	}
 
+
+
+	$.stellar();
+
+	new WOW().init();
+
 });

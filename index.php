@@ -28,8 +28,8 @@ get_header(); ?>
 								<div class="tbl-cell">
 									<br>
 									<br>
-									<h1 class="page-title"><?php echo $row['blog_slider_title'] ?></h1>
-									<a href="<?php echo $row['blog_slider_link'] ?>" class="btn btn-slider">Read</a>
+									<h1 class="page-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.1s"><?php echo $row['blog_slider_title'] ?></h1>
+									<a href="<?php echo $row['blog_slider_link'] ?>" class="btn btn-slider wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.1s">Read</a>
 								</div>
 							</div>
 						</div>
@@ -49,10 +49,12 @@ get_header(); ?>
 				</div>
 			<?php endif; ?>
 		</div>
-		<div class="container">
-			<a href="#" class="btn btn-share">Talk To An<br>Agent Now</a>
-		</div>
 	</section>
+
+<div class="content-wrap content-wrap-blog">
+	<div class="btn-share-container container">
+		<a href="#" class="btn btn-share">Talk To An<br>Agent Now</a>
+	</div>
 
 	<section class="sec-default bl-blog">
 		<div class="container">
@@ -82,6 +84,8 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
+
+</div>
 
 <?php
 //get_sidebar();

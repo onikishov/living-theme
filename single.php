@@ -12,23 +12,40 @@ get_header(); ?>
 <?php
 while ( have_posts() ) : the_post();
 
+	$bp_first_screen_bg = get_field('bp_first_screen_bg');
+	$bp_first_screen_video_file = get_field('bp_first_screen_video_file');
+	$bp_first_screen_video_bg = get_field('bp_first_screen_video_bg');
+
 	?>
+	<?php if(!empty($bp_first_screen_bg)): ?>
+	<section class="sec-top blog-detail" style="background-image: url('<?php echo $bp_first_screen_bg ?>')">
+	<?php else: ?>
 	<section class="sec-top blog-detail" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/images/tmp/blog-detail-top-bg.jpg')">
+	<?php endif; ?>
+		<?php if(!empty($bp_first_screen_video_file)): ?>
+			<video <?php echo (!empty($bp_first_screen_video_bg))?'poster="'.$bp_first_screen_video_bg.'"':'' ?> playsinline autoplay muted loop>
+				<source src="<?php echo $bp_first_screen_video_file ?>" type="video/mp4">
+			</video>
+		<?php endif; ?>
 		<div class="container">
 			<div class="tbl">
 				<div class="tbl-cell">
 					<br>
 					<br>
-					<h1 class="page-title"><?php the_title(); ?></h1>
+					<h1 class="page-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.1s"><?php the_title(); ?></h1>
 					<div class="meta">
-						<div class="meta-author">By <?php the_author(); ?></div>
-						<div class="meta-date"><?php the_date( "d/m/Y" ); ?></div>
+						<div class="meta-author wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">By <?php the_author(); ?></div>
+						<div class="meta-date wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.3s"><?php the_date( "d/m/Y" ); ?></div>
 					</div>
-					<a href="#" class="btn btn-share">Talk To An<br>Agent Now</a>
 				</div>
 			</div>
 		</div>
 	</section>
+
+<div class="content-wrap content-wrap-blog-detail">
+	<div class="btn-share-container container">
+		<a href="#" class="btn btn-share">Talk To An<br>Agent Now</a>
+	</div>
 
 	<section class="sec-default blog-detail">
 		<div class="container">
@@ -47,8 +64,8 @@ while ( have_posts() ) : the_post();
 							<?php echo get_avatar( get_the_author_meta( 'ID' ), 107, '', get_the_author(), array('class'=>'img-circle')); ?>
 						</div>
 						<div class="meta-right">
-							<div class="meta-title"><?php the_author(); ?></div>
-							<div class="meta-text">
+							<div class="meta-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.1s"><?php the_author(); ?></div>
+							<div class="meta-text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
 								<?php echo wpautop( get_the_author_meta('description'), true ); ?>
 							</div>
 						</div>
@@ -65,29 +82,7 @@ while ( have_posts() ) : the_post();
 
 endwhile; // End of the loop.
 ?>
-
-<?php if(false): ?>
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
-		<?php
-		while ( have_posts() ) : the_post();
-
-			get_template_part( 'template-parts/content', get_post_format() );
-
-			the_post_navigation();
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-<?php endif; ?>
+</div>
 
 <?php
 //get_sidebar();

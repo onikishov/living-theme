@@ -8,7 +8,7 @@ Author: mitcho (Michael Yoshitaka Erlewine)
 
 	<section class="sec-default brownbg bl-blog-slider">
 		<div class="container">
-			<p class="sec-header small-header">You Might Also Like</p>
+			<p class="sec-header small-header wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.1s">You Might Also Like</p>
 			<div class="row">
 				<div class="content_slider owl-carousel owl-theme">
 					<?php while (have_posts()) : the_post(); ?>

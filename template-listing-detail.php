@@ -6,20 +6,20 @@
 		<a href="#" class="btn btn-back">Back to results</a>
 		<div class="row">
 			<div class="col-md-9">
-				<h1 class="page-title">656 Diana Stream Suite 171</h1>
-				<div class="meta">
+				<h1 class="page-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.1s">656 Diana Stream Suite 171</h1>
+				<div class="meta wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
 					<span class="meta-price">$3,891,100</span> <span class="meta-code">MLS® #C37742390</span>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="bl-icons">
-					<div class="bath">
+					<div class="bath wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.1s">
 						<div class="icon"></div><div class="txt">6</div>
 					</div>
-					<div class="bed">
+					<div class="bed wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
 						<div class="icon"></div><div class="txt">5 + 2</div>
 					</div>
-					<div class="garage">
+					<div class="garage wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.3s">
 						<div class="icon"></div><div class="txt">3</div>
 					</div>
 				</div>
@@ -64,7 +64,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-				<div class="sec-listing-detail-content-sec">
+				<div class="sec-listing-detail-content-sec wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.1s">
 					<p class="sec-title">Property Overview</p>
 					<div class="row">
 						<div class="col-md-3">
@@ -101,12 +101,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="sec-listing-detail-content-sec fix-4">
+				<div class="sec-listing-detail-content-sec fix-4 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.1s">
 					<p class="sec-title">About The Property</p>
 					<p>Beautiful, Bright Custom Built In Prestigious Lawrence Park. Spacious Open-Concept Layout With Rare Main Floor Office. 4+1 Bedrooms, Master With Walk-In Closet, En-Suite With Heated Floors And Private Covered Patio. Oak Hardwood Floors Throughout. Located On Prime 29 Ft South Facing Lot. Walking Distance To Top Ranked Schools, Restaurants, Parks, Shops And Subway. Detached Garage With Private Drive Via Right Of Way. Wired Cat-5 Sound System Throughout. **** EXTRAS **** All Elf’s, All Window Coverings, Stainless Steel Fridge, Oven,Microwave, B/I Dishwasher, Washer, Dryer, Alarm System (Monitoring Extra). Private Drive Via Right Of Way At Back. Excl: Hwt (Rental), Fridge In Bsmt, Tv In Family Rm</p>
 					<a href="#" class="btn btn-virtual">Virtual Tour</a>
 				</div>
-				<div class="sec-listing-detail-content-sec">
+				<div class="sec-listing-detail-content-sec wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.1s">
 					<p class="sec-title">Ameneties</p>
 					<ul>
 						<li>–  Air Condition</li>
@@ -121,8 +121,8 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<a href="#" class="btn btn-share-listing">SHARE THIS LISTING</a>
-				<div class="listing-agent-bl">
+				<a href="#" class="btn btn-share-listing wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.1s">SHARE THIS LISTING</a>
+				<div class="listing-agent-bl wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.1s">
 					<div class="request-form-hide">
 						<p class="listing-agent-bl-title">Listing Agent</p>
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tmp/portrait.png" alt="" class="listing-agent-bl-portrait">
@@ -175,7 +175,7 @@
 
 <section class="sec-featured with-bg">
 	<div class="container">
-		<div class="sec-head">
+		<div class="sec-head wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.1s">
 			<p class="sec-header text-center small-header">Similar Listings</p>
 		</div>
 	</div>
